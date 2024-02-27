@@ -176,6 +176,13 @@ def weathering(weather):
             speedd = weather_dataa.json()['wind']['speed']
             tablee.append([(i + ", Bicol"), weatherss, tempp, speedd])
     print(tabulate(tablee, headers=headersss, tablefmt="fancy_grid", showindex="always"))
+    meow = {'clear sky': 0, 'few clouds': 0, 'scattered clouds': 0, 'broken clouds': 0,
+            'shower rain': 0, 'rain': 0, 'thunderstorm': 0, 'snow': 0, 'mist': 0}
+    for i in table:
+        meow[i[1]] += int(table[1].count(f'{i[1]}'))
+    maxx = max(meow, key=meow.get)
+    per = (meow[maxx]/len(weather)) * 100
+    print(f"\n#### Majority of the route is {maxx.capitalize()} with {per}% out of {len(weather)} ####")
 
 
 api_key = '30d4741c779ba94c470ca1f63045390a'
