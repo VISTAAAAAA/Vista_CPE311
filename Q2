@@ -1,0 +1,20 @@
+
+def coin(total, demonination, count):
+
+  for i in demonination:
+
+    result = total/i
+
+
+
+    count.append([','.join(list(str(i) * int(result)))])
+
+  return count
+
+
+
+count = []
+
+denomination = [1, 5, 10, 20] # peso coins
+
+print(coin(20, denomination, count))
