@@ -1,0 +1,14 @@
+Intended Learning Outcomes:
+
+Demonstrate how to gather sensor data, image data and voice data
+Demonstrate how to gather data (text and images) from web
+Demonstrate how to prepare data using different data preprocessing techniques
+Resources:
+
+Personal Computer
+Jupyter Notebook
+Internet Connection
+Instruction:
+
+Download the following datasets: aapl.csv Download aapl.csv, amzn.csv Download amzn.csv, fb.csv Download fb.csv, goog.csv Download goog.csv, nflx.csv Download nflx.csv 
+Accomplish the notebook for this activity and submit as a pdf file: Data Wrangling HOA.pdf Download Data Wrangling HOA.pdf 
