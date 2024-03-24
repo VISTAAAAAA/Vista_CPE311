@@ -1,0 +1,12 @@
+In this activity, you will be required to perform 3 specific data gathering methods:
+
+Data collection from webcam
+Data collection from microphone
+Webscraping using BeautifulSoup and Requests
+The detailed steps and sample code can be found in this pdf file: Web Scraping using BeautifulSoup.pdf Download Web Scraping using BeautifulSoup.pdf 
+
+Submission Requirements:
+
+Create a Python Notebook and perform all codes shown.
+Afterwards, perform webscraping using the demonstrated methods on a website of your choice.
+Upload the .pdf file of the notebook and the created .csv file.
