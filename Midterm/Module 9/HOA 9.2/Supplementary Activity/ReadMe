@@ -1,1 +1,15 @@
+Supplementary Activity:
 
+Using the CSV files provided and what we have learned so far in this module complete the following exercises:
+
+1. Using seaborn, create a heatmap to visualize the correlation coefficients between earthquake magnitude and whether there was a tsunami with the magType of mb.
+2. Create a box plot of Facebook volume traded and closing prices, and draw reference lines for the bounds of a Tukey fence with a multiplier of 1.5.
+The bounds will be at Q1 - 1.5 * IQR and Q3 + 1.5 * IQR. Be sure to use the quantile() method on the data to make this easier.
+(Pick whichever orientation you prefer for the plot, but make sure to use subplots.)
+3. Fill in the area between the bounds in the plot from exercise #2.
+4. Use axvspan() to shade a rectangle from '2018-07-25' to '2018-07-31', which marks the large decline in Facebook price on a line plot of the closing price.
+5. Using the Facebook stock price data, annotate the following three events on a line plot of the closing price:
+    - Disappointing user growth announced after close on July 25, 2018
+    - Cambridge Analytica story breaks on March 19, 2018 (when it affected the market)
+    - FTC launches investigation on March 20, 2018
+6. Modify the reg_resid_plots() function to use a matplotlib colormap instead
